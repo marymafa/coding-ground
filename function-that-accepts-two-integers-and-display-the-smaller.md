@@ -1,0 +1,11 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Write a JavaScript function that accepts two integers and display the smaller</title>
+<script>
+</script>
+</head>
+<body>
+</body>
+</html>
