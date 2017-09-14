@@ -7,11 +7,14 @@
 function studentsMarks(){
     var studentsMarks=[['Themba',60],['Zandi',77],['Lerato',88],['Tshepo',95],['Thomas',45]];
     var averageMarks=0;
+    var range;
     var result;
 
+    console.log("average marks of the students is");
+
     for(var i=0; i<studentsMarks.length; i++){
-        averagemarks += studentsMarks[i][1];
-        var average = (averagemarks/studentsMarks.length);
+        averageMarks += studentsMarks[i][1];
+        var average = (averageMarks/studentsMarks.length);
         
 
 }if(range < 60){
@@ -25,9 +28,9 @@ function studentsMarks(){
 }else if(range < 100){
  result="Grade: A";   
 }
-console.log(result);
+console.log(average);
 }
-this.studentsMarks();
+this.studentsMarks("average");
 
 </script>
 </head>
